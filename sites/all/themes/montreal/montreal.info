@@ -1,0 +1,54 @@
+name = Montreal
+description = A Responsive Parallax Drupal 7 Theme
+core = 7.x
+engine = phptemplate
+version = 1.1.3
+
+stylesheets[all][] = css/gumby.css
+stylesheets[all][] = css/ui.css
+stylesheets[all][] = css/ie.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/text.css
+
+scripts[] = js/jquery-ui-1.8.23.custom.min.js
+scripts[] = js/gumby.js
+scripts[] = js/modernizr-2.0.6.min.js
+scripts[] = js/mobile-menu.js
+scripts[] = js/jquery.ui.totop.js
+scripts[] = js/easing.js
+scripts[] = js/plugins.js
+scripts[] = includes/twitter/jquery.tweet.js
+scripts[] = js/main.js
+scripts[] = js/montreal.js
+
+regions[content]        = Content
+regions[sidebar_first]  = First Sidebar
+regions[sidebar_second] = Second Sidebar
+
+regions[front_blog]    = Front Page Blog
+
+regions[recent_projects] = Recent Projects
+
+regions[footer_1]       = Footer Box 1
+regions[footer_2]       = Footer Box 2
+regions[footer_3]       = Footer Box 3
+regions[footer_4]       = Footer Box 4
+regions[footer_full]    = Footer Full Width
+
+settings[branding_type] = 'text'
+
+settings[enable_highlight] = '1'
+settings[highlight_text] = "Default highlight text"
+
+settings[enable_slider] = '0'
+settings[slides_number] = '3'
+settings[slider_caption] = 'Default Slider Caption'
+
+settings[recent_posts_title] = 'Our Recent Notes'
+
+settings[recent_projects_title] = 'Recent Projects'
+
+settings[enable_twitter_feed] = '0'
+settings[twitter_handle] = 'Envato'
+
+settings['font_family'] = '"Oswald", sans-serif'

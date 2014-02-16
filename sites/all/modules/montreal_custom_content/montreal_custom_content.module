@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Montreal Custom Content feature.
+ */
+
+include_once 'montreal_custom_content.features.inc';
