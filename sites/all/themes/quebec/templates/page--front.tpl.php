@@ -68,11 +68,16 @@ PLEASE REMEMBER: THE BACKGROUND HAS LOW OPACITY TO MAKE SLIDESHOW VISIBLE.-->
 
 <?php if (render($page['front_blog'])): ?>
 <!-- BLOG CONTENT CONTAINER WITH STRIPE PAGE BACKGROUND -->
-<div class="container midpadding" style="background: url('<?php echo $root; ?>/img/stripes.png');">
+<div class="container midpadding" style="background: url('<?php echo $root; ?>/img/bg-45.png'); border-top:1px solid #ffffff;" id="homeBlog">
+<div style="width:100%;">
+    <div style="background: url(&quot;/sites/all/themes/montreal/img/home_arrow.png&quot;) no-repeat scroll center bottom transparent; height: 48px; width:108px; text-align: center; margin:0 auto; z-index: 100; position: relative; top: -69px;">
+    <a href="#homeBlog" style="width:108px; height:48px; display:block;">&nbsp;</a>
+    </div>
+</div>
 
-	<section class="row midpadding white smallbottommargin">
-		<h3 class="blacktext bold midmargin center"><?php echo t("%string", array('%string' => theme_get_setting('recent_posts_title')) ); ?></h3>
-		<div class="three columns alpha centered blackhorizontal"></div>
+	<section class="row">
+		<h3 class="whitetext bold center"><?php echo t("%string", array('%string' => theme_get_setting('recent_posts_title')) ); ?></h3>
+		<div class="three columns alpha centered whitehorizontal"></div>
 		<div class="four columns centered smalltoppadding">
 			<p class="center">
 				<a class="smallfont greytext" href="<?php echo theme_get_setting('recent_posts_link');?>"><?php echo t('VIEW ALL NOTES');?></a>

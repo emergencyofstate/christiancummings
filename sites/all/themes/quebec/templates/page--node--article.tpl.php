@@ -1,6 +1,6 @@
 <?php montreal_header($page); global $root; ?>
    
-<div class="container" style="background:url(<?php echo $root; ?>/img/stripes.png);">            
+<div class="container" style="background:url(<?php echo $root; ?>/img/bg-45.png);">            
   <section class="row white">
     
     <div class="<?php if (($page['sidebar_first']) OR ($page['sidebar_second'])) { echo "seven columns blogpost";} else { echo "twelve columns blogpost"; } ?>">

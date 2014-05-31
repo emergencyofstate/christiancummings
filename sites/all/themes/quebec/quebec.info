@@ -38,7 +38,7 @@ settings[enable_services] = '1'
 settings[enable_information] = '1'
 
 settings[enable_recent_posts] = '0'
-settings[recent_posts_title] = 'Our Recent Notes'
+settings[recent_posts_title] = 'Recent Notes'
 
 settings[enable_recent_projects] = '0'
 settings[recent_projects_title] = 'Recent Projects'
