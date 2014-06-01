@@ -1,0 +1,8 @@
+#admin-menu-wrapper ul {font-size: 8pt;}
+.blog {padding:20px;}
+.whitetext {text-shadow:1px 1px 4px #000000;}
+.slideshow {border:none;}
+.branding {margin:0; padding:20px 0;}
+
+.blog:hover {background-color:#dddddd;}
+.blog:hover .blacktext {color:#000000 !important;}
