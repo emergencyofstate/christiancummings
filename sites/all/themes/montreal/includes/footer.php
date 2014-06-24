@@ -9,19 +9,19 @@ function montreal_footer($page){
 	  <?php if( (render($page['footer_1'])) OR (render($page['footer_2'])) OR (render($page['footer_3'])) OR (render($page['footer_4'])) ) { ?>
 		<div class="row bigtoppadding">
 		
-			<div class="three columns">
+			<div class="six columns">
 	      <?php print render($page['footer_1']); ?>
 	    </div> 
 	
-	    <div class="three columns">
+	    <div class="six columns">
 	      <?php print render($page['footer_2']); ?>
 	    </div>
 	    
-	    <div class="three columns">
+	    <div class="six columns">
 	      <?php print render($page['footer_3']); ?>
 	    </div>
 	    
-	    <div class="three columns">
+	    <div class="six columns">
 	      <?php print render($page['footer_4']); ?>
 	    </div>
 	    

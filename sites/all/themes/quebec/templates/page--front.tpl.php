@@ -76,7 +76,7 @@ PLEASE REMEMBER: THE BACKGROUND HAS LOW OPACITY TO MAKE SLIDESHOW VISIBLE.-->
 </div>
 
 	<section class="row">
-		<h3 class="whitetext bold center"><?php echo t("%string", array('%string' => theme_get_setting('recent_posts_title')) ); ?></h3>
+		<h3 class="whitetext bold center"><?php echo t("!string", array('!string' => theme_get_setting('recent_posts_title')) ); ?></h3>
 		<div class="three columns alpha centered whitehorizontal"></div>
 		<div class="four columns centered smalltoppadding">
 			<p class="center">
