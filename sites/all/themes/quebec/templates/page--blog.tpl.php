@@ -1,8 +1,8 @@
 <?php montreal_header($page); global $root;?>
     
 <div class="container bigtoppadding bigbottompadding" style="background:url(<?php echo $root;?>/img/bg-45.png);">
-	<section class="row white bigpadding smallbottommargin">
-  	<h2 class="center italic blacktext"><?php echo t('Our daily ramblings about stuff'); ?></h2>
+  <section class="row bigtoppadding smallbottommargin">
+    <h3 class="whitetext bold center">RECENT ARTICLES</h3>
   </section>
         
   <div class="row">
