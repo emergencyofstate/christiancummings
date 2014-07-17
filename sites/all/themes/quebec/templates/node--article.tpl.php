@@ -17,7 +17,7 @@ global $root, $base_url;
 			<p class="post_meta">
 			  <i class="greytext icon-user"></i><span class="smallfont greytext"> <?php echo t('by'); ?> <?php print $name; ?></span> &nbsp; &nbsp;
 				<i class="greytext icon-time"></i><span class="smallfont greytext"> <?php print format_date($node->created, 'custom', 'M d, Y'); ?></span> &nbsp; &nbsp;
-				<i class="greytext icon-comment"></i> <a href="<?php print $node_url;?>/#comments"><?php print $comment_count; ?> comments</a>&nbsp; &nbsp; 
+				<!--<i class="greytext icon-comment"></i> <a href="<?php print $node_url;?>/#comments"><?php print $comment_count; ?> comments</a>&nbsp; &nbsp;
 				<?php if (render($content['field_tags'])): ?>
 				<i class="greytext icon-folder-open"></i><?php print render($content['field_tags']); ?>
 			  <?php endif; ?>

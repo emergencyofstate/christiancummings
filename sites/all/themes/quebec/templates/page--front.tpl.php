@@ -80,7 +80,7 @@ PLEASE REMEMBER: THE BACKGROUND HAS LOW OPACITY TO MAKE SLIDESHOW VISIBLE.-->
 		<div class="three columns alpha centered whitehorizontal"></div>
 		<div class="four columns centered smalltoppadding">
 			<p class="center">
-				<a class="smallfont greytext" href="<?php echo theme_get_setting('recent_posts_link');?>"><?php echo t('VIEW ALL NOTES');?></a>
+				<a class="smallfont greytext" href="<?php echo theme_get_setting('recent_posts_link');?>"><?php echo t('VIEW ALL');?></a>
 			</p>
 		</div>
 	</section>
