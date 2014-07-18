@@ -6,3 +6,5 @@
 
 .blog:hover {background-color:#dddddd;}
 .blog:hover .blacktext {color:#000000 !important;}
+
+.form-item .description {line-height: 1; padding: .5em 0;}
