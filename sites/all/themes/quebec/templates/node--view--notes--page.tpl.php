@@ -6,7 +6,7 @@
 
 	  <?php if ($user_picture || $display_submitted || !$page): ?>
 	    <?php print render($title_prefix); ?>
-	    <h4 class="blacktext light node_title"<?php print $title_attributes; ?>><?php print $title; ?></h4>  
+      <a href="<?php print $node_url;?>"><h4 class="blacktext light node_title"<?php print $title_attributes; ?>><?php print $title; ?></h4></a>
 	    <?php print render($title_suffix); ?>
 	  
 	    <?php if ($display_submitted): ?>
